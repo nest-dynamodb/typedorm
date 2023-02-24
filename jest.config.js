@@ -1,4 +1,4 @@
-require('ts-node/register');
+jest.config.jsrequire('ts-node/register');
 
 module.exports = {
   'moduleFileExtensions': [

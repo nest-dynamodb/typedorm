@@ -6,6 +6,7 @@ index.ts
 package-lock.json
 yarn.lock
 tsconfig.json
+tsconfig.build.json
 .prettierrc
 docs
 website
@@ -19,3 +20,4 @@ renovate.json
 .prettierignore
 .prettierrc
 publish.sh
+jest.config.js
