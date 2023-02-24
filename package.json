@@ -1,0 +1,47 @@
+{
+  "name": "@nest-dynamodb/typedorm",
+  "version": "0.1.0",
+  "description": "Nest - a typedorm module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:nest-dynamodb/typedorm.git",
+  "author": "ChenNima",
+  "license": "MIT",
+  "keywords": [
+    "nest",
+    "nestjs",
+    "nest-modules",
+    "nestjs-modules",
+    "dynamodb",
+    "typedorm"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.7.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^6.7.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
+    "@typedorm/common": "^1.0.0",
+    "@typedorm/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "3.278.0",
+    "@aws-sdk/lib-dynamodb": "3.278.0",
+    "@nestjs/common": "9.3.9",
+    "@nestjs/core": "9.3.9",
+    "@nestjs/testing": "9.3.9",
+    "@typedorm/common": "1.15.3",
+    "@typedorm/core": "1.15.3",
+    "@types/jest": "29.4.0",
+    "aws-sdk": "2.1322.0",
+    "jest": "29.4.3",
+    "reflect-metadata": "0.1.13",
+    "rimraf": "4.1.2",
+    "rxjs": "7.8.0",
+    "ts-jest": "29.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.5"
+  }
+}
