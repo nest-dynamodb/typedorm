@@ -3,8 +3,8 @@ name: Test and Lint
 on:
   push:
     branches: [ 'main' ]
-  pull_request:
-    branches: ['*']
+  pull_request_target:
+    branches: ['main']
 
 jobs:
   build:
@@ -26,4 +26,9 @@ jobs:
       - name: Run Lint
         run: yarn lint
       - name: Run test
+        run: yarn test
+      - name: Report coverage
         uses: ArtiomTr/jest-coverage-report-action@v2
+        with:
+          coverage-file: report.json
+          base-coverage-file: report.json
