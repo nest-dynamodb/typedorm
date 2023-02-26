@@ -1,10 +1,15 @@
 module.exports = {
-  'moduleFileExtensions': [
+  moduleFileExtensions: [
     'js',
     'json',
     'ts',
   ],
-  'rootDir': 'lib',
-  'testRegex': '/lib/.*\\.spec\\.(ts|js)$',
-  'preset': 'ts-jest',
+  coverageThreshold: {
+    global: {
+        lines: 90,
+    },
+},
+  rootDir: 'lib',
+  testRegex: '/lib/.*\\.spec\\.(ts|js)$',
+  preset: 'ts-jest',
 };

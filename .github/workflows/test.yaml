@@ -1,8 +1,10 @@
-name: Node.js CI
+name: Test and Lint
 
 on:
   push:
-    branches: [ '*' ]
+    branches: [ 'main' ]
+  pull_request:
+    branches: ['*']
 
 jobs:
   build:
@@ -24,4 +26,4 @@ jobs:
       - name: Run Lint
         run: yarn lint
       - name: Run test
-        run: yarn test
+        uses: ArtiomTr/jest-coverage-report-action@v2
