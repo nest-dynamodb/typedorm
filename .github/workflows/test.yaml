@@ -26,7 +26,7 @@ jobs:
       - name: Run Lint
         run: yarn lint
       - name: Run test
-        run: yarn test
+        run: yarn coverage:ci
       - name: Report coverage
         uses: ArtiomTr/jest-coverage-report-action@v2
         with:
