@@ -19,5 +19,6 @@ website
 renovate.json
 .prettierignore
 .prettierrc
+.github/**/*
 publish.sh
 jest.config.js
