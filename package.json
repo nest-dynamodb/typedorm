@@ -19,6 +19,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json",
     "test": "jest",
+    "coverage:ci": "jest --coverage",
     "lint": "tsc --noEmit && eslint ."
   },
   "peerDependencies": {
