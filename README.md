@@ -8,6 +8,10 @@
   A DynamoDB module for Nest framework (node.js) using <a href="https://github.com/typedorm/typedorm">typeDorm</a> library
 </p>
 
+<p align="center">
+  <a><img src="https://github.com/nest-dynamodb/typedorm/actions/workflows/test.yaml/badge.svg?branch=main" alt="Github action" /></a>
+</p>
+
 ### Installation
 
 #### with npm
