@@ -18,7 +18,8 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tsc --noEmit && eslint ."
   },
   "peerDependencies": {
     "@nestjs/common": "^6.7.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
@@ -35,8 +36,14 @@
     "@typedorm/common": "1.15.3",
     "@typedorm/core": "1.15.3",
     "@types/jest": "29.4.0",
+    "@typescript-eslint/eslint-plugin": "5.53.0",
+    "@typescript-eslint/parser": "5.53.0",
     "aws-sdk": "2.1322.0",
+    "eslint": "8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "jest": "29.4.3",
+    "prettier": "2.8.4",
     "reflect-metadata": "0.1.13",
     "rimraf": "4.1.2",
     "rxjs": "7.8.0",
