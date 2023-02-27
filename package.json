@@ -29,8 +29,8 @@
     "@typedorm/core": "^1.0.0"
   },
   "devDependencies": {
-    "@aws-sdk/client-dynamodb": "3.278.0",
-    "@aws-sdk/lib-dynamodb": "3.278.0",
+    "@aws-sdk/client-dynamodb": "3.279.0",
+    "@aws-sdk/lib-dynamodb": "3.279.0",
     "@nestjs/common": "9.3.9",
     "@nestjs/core": "9.3.9",
     "@nestjs/testing": "9.3.9",
@@ -39,8 +39,8 @@
     "@types/jest": "29.4.0",
     "@typescript-eslint/eslint-plugin": "5.53.0",
     "@typescript-eslint/parser": "5.53.0",
-    "aws-sdk": "2.1322.0",
-    "eslint": "8.34.0",
+    "aws-sdk": "2.1323.0",
+    "eslint": "8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "29.4.3",
