@@ -1,6 +1,6 @@
 {
   "name": "@nest-dynamodb/typedorm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Nest - a typedorm module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
